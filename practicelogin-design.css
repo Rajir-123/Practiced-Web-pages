@@ -1,0 +1,219 @@
+body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    
+}
+
+.flex-container{
+    display:flex;
+   
+
+    
+}
+
+.welcome-section{
+   width: 25%;
+    height: 100vh;
+    display: block;
+    background-color:rgba(0, 255, 170, 0.808);
+    color:white;
+    position: relative;
+
+
+}
+
+.login-section{
+   width: 75%;
+    height: 100vh;
+    
+    background-color: white;
+    
+    
+
+}
+.makecenter-loginsection{
+    transform: translateY(25%);
+}
+
+.welcome-sec-part{
+    position: absolute;
+    top:50%;
+    /*border: 1px solid black;*/
+    transform: translateY(-50%);
+    
+    
+}
+.welcome-title{
+     text-align: center;
+     font-size: 35px;
+     font-weight: bolder;
+
+}
+
+
+.welcome-description{
+    text-align: center;
+    margin: 0 20px;
+
+
+}
+.signin-btn-outside{
+
+}
+
+.signin-btn{
+
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+    margin:0 80px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.login-sec-header{
+    color: rgba(0, 255, 170, 0.808);
+    text-align: center;
+    font-size: 30px;
+  
+    
+}
+
+.icons{
+   text-align: center;
+    
+}
+
+.fa-square-facebook{
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+   
+}
+
+.fa-linkedin{
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.fa-square-twitter{
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.login-sec-para{
+    text-align: center;
+    
+}
+
+.form-container{
+    
+  
+ 
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ 
+  
+    
+}
+
+.name{
+    
+    width:300px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color:lightgrey;
+    
+
+}
+
+.email{
+    
+    width:300px;
+    margin:auto;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color:lightgray;
+
+}
+
+.password{
+   
+    
+    width:300px;
+    margin:auto;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-color:lightgray;
+
+}
+
+.signup-btn{
+    width:150px;
+    margin:auto;
+    padding: 15px;
+    border-radius: 50px;
+    background-color:rgba(0, 255, 170, 0.808) ;
+    color: white;
+    
+}
+
+.fa-user{
+    color: black;
+    font-size: 22px;
+    position: relative;
+    left:28px;
+    vertical-align:middle;
+
+}
+
+.fa-envelope{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left:28px;
+    vertical-align: middle;
+}
+
+.fa-lock{
+    color: black;
+    font-size: 22px;
+    position: relative;
+    left:28px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:480px) {
+    .welcome-section{
+       
+      display:none;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) {
+    .login-section{
+        width: 100%;
+       
+        
+    }
+
+    
+}
+
