@@ -1,0 +1,174 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.welcome-section {
+    width: 25%;
+    height: 100vh;
+
+}
+
+.login-section {
+    width: 75%;
+    height: 100v
+}
+
+.makecenter-loginsection {
+    transform: translateY(25%);
+}
+
+.welcome-sec-part {
+
+    top: 50%;
+    /*border: 1px solid black;*/
+    transform: translateY(-50%);
+
+
+}
+
+.welcome-title {
+
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+
+.welcome-description {
+
+    margin: 0 20px;
+
+
+}
+
+
+.signin-btn {
+
+
+
+    width: 50%;
+    padding: 10px;
+    margin: 0 80px;
+
+
+}
+
+.login-sec-header {
+
+    font-size: 30px;
+
+
+}
+
+
+
+.fa-square-facebook {
+
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.fa-linkedin {
+
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.fa-square-twitter {
+
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+
+
+
+.name {
+
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 30px;
+
+
+}
+
+.email {
+
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 30px;
+
+
+}
+
+.password {
+
+
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    padding-left: 30px;
+
+
+}
+
+.signup-btn {
+    width: 150px;
+    margin: auto;
+    padding: 15px;
+
+
+}
+
+.fa-user {
+
+    font-size: 22px;
+
+    left: 28px;
+    vertical-align: middle;
+
+}
+
+.fa-envelope {
+
+    font-size: 20px;
+    left: 28px;
+    vertical-align: middle;
+}
+
+.fa-lock {
+    font-size: 22px;
+    left: 28px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:480px) {
+    .welcome-section {
+
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .login-section {
+        width: 100%;
+
+
+    }
+
+
+}
