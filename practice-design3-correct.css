@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+}
+
+/*
+.futureskillsimg{
+    width: 100px;
+    height:100px;
+    
+   
+}
+.ministryofeducation{
+    width: 100px;
+    height:100px;
+   
+}
+.neilit{
+    width: 100px;
+    height:100px;
+    
+}
+.cdaclogo{
+    width: 100px;
+    height:100px;
+}
+
+*/
+
+/*.nav{
+    background-color: #ffc266;
+    text-align: center;
+}
+
+.image-next-link-main{
+   box-sizing: border-box;}
+  
+  */
+   
+
+/* 3 boxes spacing*/
+/*.box1{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.box2{
+    
+    margin-right: 50px;
+}
+.box3{
+   
+    margin-right: 100px;
+}*/
+
+.labmanuals{
+    width: 300px;
+    height:300px;
+    margin: 0;
+    
+   
+}
+.curatedcontent{
+    width: 300px;
+    height:300px;
+   
+}
+.presentation{
+    width: 300px;
+    height:300px;}
+
+.icon{
+  width: 35px;
+  text-align: center;
+  
+    
+}
+
+/*.link1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.link2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.link3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.link4{
+    margin-left: 50px;
+    margin-right: 50px;
+}*/
+
+
+
+
+.links > a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and(max-width:480px){
+    .links > a {
+        margin-left: 0;
+    }
+}
+
+
