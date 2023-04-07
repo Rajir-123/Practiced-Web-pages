@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-style{
+    text-transform: uppercase;
+    margin-left: 130px;
+   
+
+}
+
+
+.header-content{
+    padding-top: 100px;
+    padding-left: 40px;
+
+}
+
+.join-us-btn{
+    
+    padding-top:50px;
+}
+
+
+
+.login-form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.login-form-header{
+    padding-left: 40px;
+    padding-right:40px ;
+   
+  
+}
+.form-input{
+border-bottom: 1px solid ;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+
+.btn0{
+    border:gray;
+    border-radius: 5px;
+    margin-left: -5px;
+}
+
+
+
+/*@media only screen and(max-width:600px){
+
+    div.input-group-info{
+        display: none !important;
+    }
+
+    .nav-style{
+       background-color: orange !important;
+    }
+
+    
+
+    
+}*/
+
+@media (max-width: 575.98px) { 
+    .demo{
+    display: none;
+    }
+    .btn0{
+        
+        display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
