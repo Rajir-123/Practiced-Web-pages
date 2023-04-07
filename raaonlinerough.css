@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont-1{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+}
+
+.search-btn{
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*.btn1{
+    border: 1px solid lightblue;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px;
+    margin:0;
+}*/
+
+.nav-search-items{
+   margin:0px -200px;
+   min-width: 25rem;
+  
+}
+
+.log-btn{
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    margin-right: .5rem!important;
+    margin-left: .5rem!important;
+    background-color: #f2fcfe!important;
+    color: #007db3 !important;
+    
+    
+}
+
+.sign-btn{
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+.navbar-toggler{
+    margin:0px -10px;
+}
+
+/*.cart{
+    position: relative;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.fa-user{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+}*/
+.raaonline-head{
+    font-size:3rem;
+}
+.raaonline-para{
+    font-size: 1rem;
+}
+.cart{
+    margin-left:100px ;
+    margin-top: 20px;
+}
+
+.user{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.img-1{
+    background-color: #f2fcfe!important;
+    color: #007db3 !important;
+}
+
+.feature-packages-section{
+    background-color: #f2fcfe;
+    margin: 0;
+}
+
+.ifram-in-featuredvideos{
+    margin-right: 30px;
+   
+}
+
+.doc-images{
+   
+    border-radius: 50%;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    border: 2px solid green;
+ 
+}
+
+
+.Testimonials{
+    background-color:#f2fcfe;
+}
+
+.Anesthesia-package-section{
+    background-color: #007db3;
+}
+
+.sign-btn1{
+    background-color: #f2fcfe!important;
+    color: #007db3 !important;
+    
+}
+
+.Anesthesia-package-section-below{
+    background-color: #01121a;
+    color:white;
+}
+@media screen and (max-width:500px) {
+    .nav-search-items a{
+       display:none;
+       
+     }
+}
+
