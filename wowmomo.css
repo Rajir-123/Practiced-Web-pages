@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.btn0{
+    width: 200px;
+   
+}
+
+.btn1{
+    width: 200px;
+   
+}
+
+.form-control{
+    background-color: grey;
+}
+
+.dropdown-section {
+    max-width: 300px;
+}
+
+.btn3{
+    width:50px;
+    border-radius: 3px;
+    
+}
+
+.cross-images{
+    width:550px;
+    height:400px;
+}
+
+@include media-breakpoint-down(sm) {
+    .cross-images{
+     dispaly:none;
+    }
+  }
